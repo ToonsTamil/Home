@@ -39,7 +39,7 @@ search_icon.onclick=function (){
  close_search.style.display="none";
 
   search.style.display="block";
-  if("pokemon".includes(txt.toLowerCase())){
+  if("pokemon season".includes(txt.toLowerCase())){
   open ("");
      }
   
