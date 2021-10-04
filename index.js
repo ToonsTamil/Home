@@ -40,22 +40,22 @@ search_icon.onclick=function (){
 
   search.style.display="block";
   if("pokemon season".includes(txt.toLowerCase())){
-  open ("");
+  open ("https://toonstamil.github.io/pokemon-season");
      }
   
   else if("pokemon season 14".includes(txt.toLowerCase())){
-  open("");
+  open("https://toonstamil.github.io/pokemon-season/pokemon-season-14-black-and-white");
 }
   else if("pokemon season 15".includes(txt.toLowerCase())){
   
-  open ("");
+  open ("https://toonstamil.github.io/pokemon-season/pokemon-season-15-bw-rival-destinies");
 }
   else if("luca".includes(txt.toLowerCase())){
-    open ("");
+    open ("https://toonstamil.github.io/disney/luca");
   
   }
   else if("raya the last dragon".includes(txt.toLowerCase())){
-    open("");
+    open("https://toonstamil.github.io/disney/raya-and-the-last-dragon");
   }
   else{
     alert ("Result Not Found");
