@@ -31,6 +31,19 @@ close_search.onclick=function (){
   close_search.style.display="none";
 }
 
+list_icon.onclick=function (){
+   if(list.style.display==="block"){
+  list.style.display="none";
+ search.style.display="block";
+ 
+   }
+    else {
+  search.style.display="none";   list.style.display="block";
+   search_bar.style.display="none";
+      close_search.style.display="none";
+   }
+  } 
+
 search_icon.onclick=function (){
  var txt=document.getElementById("search-box").value;
    search_bar.style.display="none";
