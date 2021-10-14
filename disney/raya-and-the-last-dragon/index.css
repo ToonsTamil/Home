@@ -161,12 +161,15 @@ li{
 }
 
 #img{
-  width:80%;
+display:block;
+  width:90%;
   height:400px;
+  margin-top:24px;
   margin-bottom:24px;
-  margin-left:9.5%;
-margin-top:24px;
-            }
+  margin-left:auto;
+  margin-right:auto;
+  }
+
 #title{
   font-family: 'Besley', serif;
     font-size:34px;
