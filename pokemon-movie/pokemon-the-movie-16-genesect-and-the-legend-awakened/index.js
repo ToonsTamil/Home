@@ -54,6 +54,9 @@ search_icon.onclick=function (){
     else if("raya the last dragon".includes(txt.toLowerCase())){
         open("https://toonstamil.github.io/disney/raya-and-the-last-dragon");
           }
+else if("pokemon movie".includes(txt.toLowerCase())){
+        open ("https://toonstamil.github.io/pokemon-movie");
+  }
             else{
                 alert ("Result Not Found");
                   }
