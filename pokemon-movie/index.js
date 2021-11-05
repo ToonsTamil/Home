@@ -64,6 +64,9 @@ search_icon.onclick=function (){
     else if("raya the last dragon".includes(txt.toLowerCase())){
         open("https://toonstamil.github.io/disney/raya-and-the-last-dragon");
           }
+    else if("pokemon season 15".includes(txt.toLowerCase())){
+        open ("https://toonstamil.github.io/pokemon-season/pokemon-season-15-bw-rival-destinies");
+  }
             else{
                 alert ("Result Not Found");
                   }
